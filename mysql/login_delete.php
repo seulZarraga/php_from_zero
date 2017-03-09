@@ -1,14 +1,16 @@
-<?php 
+<?php
+	
 	include "database.php";
 
 	include "functions.php";
 
-	$title = "Login Read";
+	deleteUsers();
+
+	$title = "Login Delete";
 
 	include "includes/header.php";
 
  ?>
-
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-6">

@@ -18,7 +18,7 @@
 				  <div class="panel-heading">Panel heading</div>
 
 				  <!-- Table -->
-				  <table class="table">
+				  <table class="table table-bordered table-hovered">
 				    <thead>
 				    	<tr>
 				    		<th>Id</th>

@@ -29,7 +29,7 @@
 
                     while ($row = mysqli_fetch_assoc($result)) {
                         
-                        $category_name = $row['category_name'];
+                        $category_name = $row['cat_name'];
 
                         $html = "<li>";
                         $html .= "<a href='#'>{$category_name}</a>";
@@ -39,7 +39,7 @@
 
                 ?>
                     <li>
-                        <a href="#">About</a>
+                        <a href="admin">Admin</a>
                     </li>
                     <li>
                         <a href="#">Services</a>
